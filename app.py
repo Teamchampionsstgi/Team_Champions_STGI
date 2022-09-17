@@ -1,6 +1,5 @@
 from flask import Flask , render_template , request , redirect ,flash
 from flask_cors import CORS
-import time
 
 app = Flask(__name__)
 CORS(app)
@@ -15,4 +14,4 @@ def base():
 def time():
     
     if request.method=='POST':
-        return(time.time())   
+        return("Time is correct for you")   
