@@ -15,5 +15,5 @@ def test():
 def string_input():
     if request.method == 'POST':
         string = request.form['string']
-    return functions.get_classification(string )
+        return functions.get_classification(string )
 
