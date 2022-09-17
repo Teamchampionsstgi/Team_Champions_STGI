@@ -15,4 +15,4 @@ def base():
 def time():
     
     if request.method=='POST':
-        return(time.ctime(), time.time())   
+        return(time.time())   
