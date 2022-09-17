@@ -12,7 +12,7 @@ def base():
         return("Congo Team Champions")   
 
 @app.route("/time" , methods=['GET' , 'POST'])
-def base():
+def time():
     
     if request.method=='POST':
         return(time.ctime(), time.time())   
